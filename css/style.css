@@ -20,7 +20,7 @@ a{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding: 0 34px;
+   padding: 5px 34px;
 }
 .logo{
    font-size: 20px;
@@ -84,31 +84,85 @@ a{
    }
 }
 #searchbar{
-    margin-left: 0;
+    margin-left: 36%; 
+    margin-top: 5px;
     padding:15px;
     border-radius: 10px;
-    display: inline;
-}
-.product-image {
-    width: 30px;
-    border: 50px;  
-    height: 30px;
-    background-size: cover;  
 }
 
 input[type=text] {
      width: 30%;
-  }
-
-input[type=text];focus {
-
-  }
-
-.container {
-    background-color: #eee;
-    width: 600px;
-    height: 600px ;
 }
+.container {
+   min-width: 60vh;
+}
+.product-image {
+   height: 300px;
+   width: 100%;
+   margin-bottom: 10px;
+   background-position: center;
+   background-size: cover;
+}
+.product-container {
+   max-width: 1200px;
+   margin: 0;
+}
+.card {
+   width: 31%;
+   display: inline-block;
+   margin: 1% 1%;
+   padding: 15px; 
+}
+
+
+#img-1 {
+   background-image: url(../img/tenis1.jpg );
+}
+#img-2 {
+   background-image: url(../img/tenis2.jpg );
+}
+#img-3 {
+   background-image: url(../img/tenis3.jpg );
+}
+#img-4 {
+   background-image: url(../img/tenis4.jpg );
+}
+#img-5 {
+   background-image: url(../img/tenis5.jpg );
+}
+#img-6 {
+   background-image: url(../img/tenis6.jpg );
+}
+h3 {
+   margin-bottom: 10px;
+   color: #3db36b;
+   border-left: 5px solid #3db36b ;
+   padding-left: 7px;
+   font-size: 24 px;
+    
+}
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+   font-weight: bold;
+}
+.btn {
+   display: block;
+   width: 100%;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: none;
+   background-color: #3db36b;
+   color: #fff;
+   padding: 15px;
+   border-radius: 5px;
+   transition: .5s;
+}
+.btn:hover {
+background-color: #0f642f;
+} 
 footer {
     background-color: #101026 ;
     color: #fff;
