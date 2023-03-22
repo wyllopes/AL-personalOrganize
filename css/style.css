@@ -97,15 +97,19 @@ input[type=text] {
    min-width: 60vh;
 }
 .product-image {
-   height: 300px;
-   width: 100%;
    margin-bottom: 10px;
-   background-position: center;
    background-size: cover;
 }
+
 .product-container {
    max-width: 1200px;
    margin: 0;
+}
+@media (max-width:768px){
+   .product-image{
+      background-image: url(../img/transborde2.jpg);
+      display: inline;
+  }
 }
 .card {
    width: 31%;
@@ -169,4 +173,4 @@ footer {
     border-top: 3px solid #101026;
     text-align: center;
     padding: 50px;
-} 
+}
