@@ -84,12 +84,11 @@ a{
    }
 }
 #searchbar{
-    margin-left: 36%; 
+    margin-left: 35%; 
     margin-top: 5px;
     padding:15px;
     border-radius: 10px;
 }
-
 input[type=text] {
      width: 30%;
 }
@@ -102,34 +101,32 @@ input[type=text] {
    justify-content: center;
    align-items: center;
 }
-
 .slider {
-   margin: 0 ;
-   width: 800px;
+   margin: 0, auto ; 
+   width: 400px;
    height: 400px;
    overflow: hidden;
 }
 .slides{
-   width: 400px;
+   width: 400%;
    height: 400px;
    display: flex;
-}
+ }
 .slides input {
    display: none;
 }
 .slide {
    width: 25%;
    position: relative;
+   transition: 2s;
 }
 .slide img{
-   width: 800px;
-   display: flex;
-
+   width: 400px;
 }
 .manual-navigation{
    position: absolute;
-   width: 800px;
-   margin-top: -40px;
+   width: 400px;
+   margin-top: -30px;
    display: flex;
    justify-content: center;
 }
@@ -137,10 +134,11 @@ input[type=text] {
    border: 2px solid #5e1515;
    padding: 5px;
    border-radius: 10px;
+   cursor: pointer;
    transition: 1s;
 }
 .manual-btn:not(:last-child){
-   margin-right: 40px;
+   margin-right: 30px;
 }
 .manual-btn:hover{
    background-color: #330707;
@@ -163,28 +161,29 @@ input[type=text] {
    border-radius: 10px;
    transition: 1s;
 }
+
 .navigation-auto{
-   position: absolute;
+   position: relative;
    width: 800px;
-   margin-top: 360px;
+   margin-top: 360x;
    display: flex;
    justify-content: center;
 }
 .navigation-auto div:not(:last-child){
-   margin-right: 40px;
+   margin-right: 30px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-   background-color: #101026;
+   background-color: #330707;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-   background-color: #101026;
+   background-color: #330707;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-   background-color: #101026;
+   background-color: #330707;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
-   background-color: #101026;
+   background-color: #330707;
 }
 
 
@@ -203,7 +202,6 @@ input[type=text] {
 @media (max-width:768px){
    .product-image{
       background-image: url(../img/transborde2.jpg);
-      display: inline;
   }
 }
 .card {
