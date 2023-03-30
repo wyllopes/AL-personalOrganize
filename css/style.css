@@ -88,6 +88,7 @@ a{
     margin-top: 5px;
     padding:15px;
     border-radius: 10px;
+    
 }
 input[type=text] {
      width: 30%;
@@ -117,7 +118,6 @@ input[type=text] {
 }
 .slide {
    width: 25%;
-   position: relative;
    transition: 2s;
 }
 .slide img{
@@ -153,7 +153,7 @@ input[type=text] {
    margin-left: -50%;
 }
 #radio4:checked ~ .first{
-   margin-left: -75;
+   margin-left: -75%;
 }
 .navigation-auto div{
    border: 2px solid blueviolet;
@@ -173,33 +173,38 @@ input[type=text] {
    margin-right: 30px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
-   background-color: #330707;
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+   background-color: #000000;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
-   background-color: #330707;
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+   background-color: #000;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3{
-   background-color: #330707;
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+   background-color: #000000;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4{
-   background-color: #330707;
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+   background-color: #000;
 }
 
 
 .container {
    min-width: 60vh;
 }
+img{
+   max-width: 100%;
+}
 .product-image {
+   width: 100%;
    margin-bottom: 10px;
    background-size: cover;
+   
 }
 
 .product-container {
    max-width: 1200px;
    margin: 0;
 }
-@media (max-width:768px){
+@media (max-width:100%){
    .product-image{
       background-image: url(../img/transborde2.jpg);
   }

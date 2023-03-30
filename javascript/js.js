@@ -8,7 +8,7 @@ hamburguer.addEventListener("click", () => {
 })
 
 let count = 1;
-document.getElementById("radio1").checked = true;
+document.getElementById( "radio1" ).checked = true;
 
 setInterval( function (){
     nextImage();
@@ -20,6 +20,6 @@ function nextImage(){
         count = 1;
     }
 
-    document.getElementById("radio"+count).checked = true;
+    document.getElementById( "radio" +count).checked = true;
 
 }

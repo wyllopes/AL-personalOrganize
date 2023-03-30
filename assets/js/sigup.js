@@ -176,22 +176,3 @@ btnConfirm.addEventListener('click', ()=>{
     inputConfirmSenha.setAttribute('type', 'password')
   }
 })
-btn.addEventListener('click', ()=>{
-  let inputEmail = document.querySelector('#email')
-
-  if(inputEmail.getAttribute('type') == 'text'){
-    inputEmail.setAttribute('type', 'text')
-  } else {
-    inputEmail.setAttribute('type', 'text')
-  }
-})
-
-btnConfirm.addEventListener('click', ()=>{
-  let inputConfirmEmail = document.querySelector('#confirmEmail')
-
-  if(inputConfirmEmail.getAttribute('type') == 'text'){
-    inputConfirmEmail.setAttribute('type', 'text')
-  } else {
-    inputConfirmEmail.setAttribute('type', 'textd')
-  }
-})

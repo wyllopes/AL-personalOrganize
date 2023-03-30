@@ -45,7 +45,7 @@ function entrar(){
          nome: item.nomeCad,
          user: item.userCad,
          senha: item.senhaCad
-       }
+      }
 
     }
   })
